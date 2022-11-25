@@ -1,6 +1,4 @@
-# <Prework Study Guide Webpage>
-
-# Description
+# Challenge 1
 
 ## This is challenge 1 of the Front End Developer Bootcamp course.
 
