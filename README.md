@@ -2,7 +2,7 @@
 
 ## This is challenge 1 of the Front End Developer Bootcamp course.
 
-##User Story:
+## User Story:
 
 As a marketing agency I want a codebase that follows accessibility standards so that our own site is optimized for search engines.
 
