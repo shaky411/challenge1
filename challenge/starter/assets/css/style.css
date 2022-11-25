@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* webpage header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* This is the nav */
+/* This is the nav item. Links are wrapped within */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,16 +34,16 @@ nav {
     font-size: 20px;
 }
 
-/* Upadted the html tag to nav */
+/* nav list */
 nav ul {
     list-style-type: none;
 }
-
+/* nav list items */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* nav links style */
 nav a {
     color: #ffffff;
     text-decoration: none;
@@ -73,6 +74,7 @@ nav a:hover {
     margin-left: 25px;
 }
 
+/* right hand side content */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -127,6 +129,7 @@ section {
     max-height: 200px;
 }
 
+/* webpage footer */
 footer {
     padding: 30px;
     clear: both;
