@@ -2,13 +2,18 @@
 
 ## This is challenge 1 of the Front End Developer Bootcamp course.
 
+##User Story:
+
+As a marketing agency I want a codebase that follows accessibility standards so that our own site is optimized for search engines.
+
 ### Challenge Requirements:
 
 - Edit HTML and CSS files for an existing website to meet accesibility standards
 - Use semantic HTML tags and ensure that images have nessecary 'alt' attributes
 - Ensure that title elements are corrrect and that all links are working correctly
+- CSS selectors and properties properly consolidated
+- Ensure that the CSS file is properly commented
 
-(Assets/01-html-css-git-challenge-demo.png)
 
 ## Installation
 
