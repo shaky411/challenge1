@@ -24,7 +24,8 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+/* This is the nav */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,25 +33,28 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+/* Upadted the html tag to nav */
+nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+nav a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
+/* Added this hover effect so I can see that the links are responsive */
+nav a:hover {
+    color: crimson;
 }
 
-.hero {
+/* Main background image */
+.hero-banner {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -69,13 +73,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,115 +84,56 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+aside p {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #fff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+aside h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
 }
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
-.search-engine-optimization {
+/* Main-Box Styling */
+.main-box {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    font-size: 16px;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.main-box h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.main-box img {
+    max-height: 200px;
 }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h4 {
     font-size: 20px;
 }
