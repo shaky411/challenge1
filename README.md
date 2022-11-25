@@ -1,8 +1,10 @@
 # <Prework Study Guide Webpage>
 
-## Description
+# Description
 
-This is challenge 1 of the Front End Developer Bootcamp course. 
+## This is challenge 1 of the Front End Developer Bootcamp course.
+
+### Challenge Requirements:
 
 - Edit HTML and CSS files for an existing website to meet accesibility standards
 - Use semantic HTML tags and ensure that images have nessecary 'alt' attributes
