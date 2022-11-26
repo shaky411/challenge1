@@ -64,17 +64,7 @@ nav a:hover {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/* right hand side content */
+/* Sidebar content */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -110,6 +100,17 @@ section {
 }
 
 /* Main-Box Styling */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 .main-box {
     margin-bottom: 20px;
     padding: 50px;
